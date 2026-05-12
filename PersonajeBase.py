@@ -1,16 +1,16 @@
 # Variables del personaje RPG 
 nombre = 'Gandalf' 
-nivel = 5
+nivel = 2
 vida = 80 
 vida_maxima = 100
 esta_vivo = True 
-clase = 'Mago' 
-puntos_ataque = 15 
-puntos_defensa = 10
+clase = 'Guerrero' 
+puntos_ataque = 18
+puntos_defensa = 8
 Mana = 120
  
 # Verificar tipos 
-
+"""
 print(type(nombre))   # <class 'str'> 
 
 print(type(nivel))    # <class 'int'> 
@@ -19,7 +19,7 @@ print(type(vida))     # <class 'float'>
 
 print(type(esta_vivo)) # <class 'bool'> 
 
- 
+
 
 print(f'{nombre}[{clase}] Nivel: {nivel} | Vida: {vida}| Mana: {Mana}') 
 
@@ -37,10 +37,9 @@ niv = int(input('Nivel: '))
 
 print(f'{nom} Nv.{niv}') 
 
- 
-
 # f-strings (muy utiles) 
 
 vida = 87.5 
 
 print(f'Vida: {vida:.1f}%') 
+"""
